@@ -1,0 +1,16 @@
+{
+  "name": "private-nft-marketplace-scripts",
+  "version": "1.0.0",
+  "description": "Deployment scripts for Private NFT Marketplace",
+  "main": "deploy.js",
+  "scripts": {
+    "compile": "node ../compile.js",
+    "deploy": "node deploy.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "fs": "^0.0.1-security",
+    "starknet": "^5.29.0",
+    "path": "^0.12.7"
+  }
+}
